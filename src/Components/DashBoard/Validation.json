@@ -1,0 +1,72 @@
+[
+    {
+        "name": "fullName",
+        "condition": [
+            {
+                "condition": "obj.fullName == undefined || obj.fullName == ''",
+                "error": "Full Name is required"
+            }
+        ]
+    },
+    {
+        "name": "email",
+        "condition": [
+            {
+                "condition": "obj.email == undefined || obj.email == ''",
+                "error": "Email is required"
+            },
+            {
+                "condition": "!(obj.email.endsWith('@gmail.com') || obj.email.endsWith('@outlook.com'))",
+                "error": "Email must br @gmail.com or @outlook.com"
+            }
+        ]
+    },
+    {
+        "name": "password",
+        "condition": [
+            {
+                "condition": "obj.password == undefined || obj.password == ''",
+                "error": "Password is required"
+            }
+        ]
+    },
+    {
+        "name":"mobileNumber",
+        "condition":[
+            {
+                "condition":"obj.mobileNumber == undefined || obj.mobileNumber == ''",
+                "error":"Mobile is required"
+            },
+            {
+                "condition":"obj.mobileNumber.length !=10 || !(/^[0-9]*$/).test(obj.mobileNumber)",
+                "error":"Mobile No is not Valid"
+            }
+        ]
+    },
+    {
+        "name":"roleId",
+        "condition":[
+            {
+                "condition":"obj.roleId == undefined || obj.roleId == ''",
+                "error":"Select Your Role"
+            }
+        ]
+    },
+    {
+        "name":"userRole",
+        "condition":[
+            {
+                "condition":"obj.userRole == undefined || obj.userRole == []"
+            }
+        ]
+    },
+    {
+        "name":"profileImageBase64",
+        "condition":[
+            {
+                "condition":"obj.profileImageBase64 == undefined || obj.profileImageBase64 == ''",
+                "error":"Profile Picture Required"
+            }
+        ]
+    }
+]

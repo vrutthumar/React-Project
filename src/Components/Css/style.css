@@ -1,0 +1,213 @@
+a {
+    color: inherit;
+}
+.header {
+    width: calc(100% - 200px);
+    background-color: white;
+}
+.content-div{
+    height: 90% !important;
+
+}
+@keyframes logoRound {
+    0%{rotate: -360deg;}
+}
+.logo{
+    animation-name: logoRound;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+}
+.logout-btn{
+    display: inline-block;
+    padding: 0.625rem 1.875rem;
+    line-height: 1.5625rem;
+    background-color: transparent;
+    border: 1px solid #5C61EF;
+    color: #5C61EF;
+    font-size: 0.9375rem;
+    font-weight: 600;
+    transition: all .4s ease-out 0s;
+}
+.logout-btn:hover{
+    box-shadow: 0px 2px 10px -1px rgb(0 0 0 / 19%);
+    background-color: #5C61EF;
+    color: #fff;
+
+}
+
+.nav-bar {
+    /* color: white; */
+    color: #0020CD;
+
+    transition: 0.3s;
+}
+
+.nav-bar:hover, .active>div {
+    background-color: #0020CD;
+    color: white;
+}
+
+.hoc {
+    height: 786px;
+    background-color: #0020CD;
+    padding: 30px 0;
+}
+.hoc>div{
+    width: 95%;
+    margin: 0 auto;
+    background-color: white;
+    height: 100%;
+    
+}
+.register {
+    background-image: url(../DashBoard/images/Register\ Page.png);
+    height: 1000px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.login {
+    background-image: url(../DashBoard/images/user\ login.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.register .form{
+    width: 40%;
+    position: absolute;
+    right: 8%;
+    top:5%;
+}
+.login .form{
+    width: 40%;
+    position: absolute;
+    right: 10%;
+    top: 20%;
+}
+.form .form-control:focus,.form .form-check-input:focus{
+    border-color: white;
+    box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.25);
+}
+.form .form-check-input{
+    background-color: transparent;
+}
+.form .form-check-input:checked{
+    background-color: #FEC74F;
+    border-color: #FEC74F;
+}
+.login .form .form-check-input:checked{
+    background-color: #0020CD;
+    border-color: #0020CD;
+}
+.login .form .form-check-input{
+    background-color: transparent;
+    border-color:#0020CD;
+}
+.primary-btn{
+    display: inline-block;
+    padding: 0.625rem 1.875rem;
+    line-height: 1.5625rem;
+    background-color: transparent;
+    border: 1px solid #5C61EF;
+    color: #5C61EF;
+    font-size: 0.9375rem;
+    font-weight: 600;
+    transition: all .4s ease-out 0s;
+}
+.primary-btn:hover{
+    box-shadow: 0px 2px 10px -1px rgb(0 0 0 / 19%);
+    background-color: #5C61EF;
+    color: #fff;
+
+}
+.secondry-btn{
+    display: inline-block;
+    padding: 0.625rem 1.875rem;
+    line-height: 1.5625rem;
+    background-color: transparent;
+    border: 1px solid #0020CD;
+    color: #0020CD;
+    font-size: 0.9375rem;
+    font-weight: 600;
+    transition: all .4s ease-out 0s;
+}
+.secondry-btn:hover,.active-tab{
+    box-shadow: 0px 2px 10px -1px rgb(0 0 0 / 19%);
+    background-color: #0020CD !important;
+    color: #fff !important;
+
+}
+.or{
+    position: relative;
+    color: #0020CD;
+}
+.or::before{
+    content: '';
+    background-color: #0020CD;
+    height: 2px;
+    width: 40%;
+    position: absolute;
+    left: 6%;
+    top: 47%;
+}
+.or::after{
+    content: '';
+    background-color: #0020CD;
+    height: 2px;
+    width: 40%;
+    position: absolute;
+    right: 6%;
+    top: 47%;
+}
+
+.forgot:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.profile-table>tr>td{
+    /* color: white; */
+    padding:20px 10px;
+    font-size: 20px;
+}
+.profile-table>tr:nth-child(odd){
+    background-color: #0020CD;
+}
+.profile-table>tr:nth-child(even){
+    background-color: #7c8ef2;
+}
+.chart>canvas{
+    height: 100% !important;
+    width: 100% !important;
+}
+.profile-table th{
+    width: 400px !important;
+}
+.home-con{
+    padding: 20px 25px;
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    color: #ffffff;
+  }
+  
+  .home-con p{
+    padding: 0%;
+    margin: 0%;
+  }
+  
+  .con-one{
+    background: #5CAAFB;
+  }
+  .con-two{
+    background: #48DCBE;
+  }
+  
+  .con-three{
+    background: #FFC063;
+  }
+  
+  .con-four{
+    background: #FF7085;
+  }

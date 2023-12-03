@@ -1,0 +1,160 @@
+[
+    [
+        
+        {
+            "name": "idNumber",
+            "condition": [
+                {
+                    "condition": "obj.idNumber == undefined || obj.idNumber == ''",
+                    "error": "Required*"
+                }
+            ]
+        },
+        {
+            "name": "displayName",
+            "condition": [
+                {
+                    "condition": "obj.displayName == undefined || obj.displayName == ''",
+                    "error": "Required*"
+                }
+            ]
+        },
+        {
+            "name": "email",
+            "condition": [
+                {
+                    "condition": "obj.email == undefined || obj.email == ''",
+                    "error": "Required*"
+                }
+            ]
+        },
+        {
+            "name": "alternativeName",
+            "condition": [
+                {
+                    "condition": "obj.alternativeName == undefined || obj.alternativeName == ''",
+                    "error": "Required*"
+                }
+            ]
+        },
+        {
+            "name": "chineseName",
+            "condition": [
+                {
+                    "condition": "obj.chineseName == undefined || obj.chineseName == ''",
+                    "error": "Required*"
+                }
+            ]
+        },
+        {
+            "name": "artistName",
+            "condition": [
+                {
+                    "condition": "obj.artistName == undefined || obj.artistName == ''",
+                    "error": "Required*"
+                }
+            ]
+        },
+        {
+            "name": "birthdate",
+            "condition": [
+                {
+                    "condition": "obj.birthdate == undefined || obj.birthdate == ''",
+                    "error": "Required*"
+                }
+            ]
+        },
+        {
+            "name": "address",
+            "condition": [
+                {
+                    "condition": "obj.address == undefined || obj.address == ''",
+                    "error": "Required*"
+                }
+            ]
+        },
+        {
+            "name": "contractStartDate",
+            "condition": [
+                {
+                    "condition": "obj.contractStartDate == undefined || obj.contractStartDate == ''",
+                    "error": "Required*"
+                }
+            ]
+        },
+        {
+            "name": "contractEndDate",
+            "condition": [
+                {
+                    "condition": "obj.contractEndDate == undefined || obj.contractEndDate == ''",
+                    "error": "Required*"
+                }
+            ]
+        },
+        {
+            "name": "bankDetails",
+            "condition": [
+                {
+                    "condition": "obj.bankDetails == undefined || obj.bankDetails == ''",
+                    "error": "Required*"
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "name": "bankInfo",
+            "condition": [
+                {
+                    "condition": "bankObj.bankInfo == undefined || bankObj.bankInfo == ''",
+                    "error": "Required*"
+                }
+            ]
+        },
+        {
+            "name": "bankAddress",
+            "condition": [
+                {
+                    "condition": "bankObj.bankAddress == undefined || bankObj.bankAddress == ''",
+                    "error": "Required*"
+                }
+            ]
+        },
+        {
+            "name": "cardHolder",
+            "condition": [
+                {
+                    "condition": "bankObj.cardHolder == undefined || bankObj.cardHolder == ''",
+                    "error": "Required*"
+                }
+            ]
+        },
+        {
+            "name": "cardType",
+            "condition": [
+                {
+                    "condition": "bankObj.cardType == undefined || bankObj.cardType == ''",
+                    "error": "Required*"
+                }
+            ]
+        },
+        {
+            "name": "cardNo",
+            "condition": [
+                {
+                    "condition": "bankObj.cardNo == undefined || bankObj.cardNo == ''",
+                    "error": "Required*"
+                }
+            ]
+        },
+        {
+            "name": "tel",
+            "condition": [
+                {
+                    "condition": "bankObj.tel == undefined || bankObj.tel == ''",
+                    "error": "Required*"
+                }
+            ]
+        }
+    ]
+]
